@@ -14,7 +14,7 @@ main{
     justify-content: center;
     height: 100vh;
 }
-calculadora{
+.calculadora{
     margin-bottom: 50px;
 }
 h1{
@@ -93,27 +93,27 @@ a{
 }
 
 @media (min-width: 250px) {
-    calculadora{
+    .calculadora{
         transform: scale(0.8);
     }
 }
 @media (min-width: 375px) {
-    calculadora{
+    .calculadora{
         transform: scale(0.9);
     }
 }
 @media (min-width: 425px) {
-    calculadora{
+    .calculadora{
         transform: scale(1);
     }
 }
 @media (min-width: 768px) {
-    calculadora{
+    .calculadora{
         transform: scale(1.05);
     }
 }
 @media (min-width: 1280px) {
-    calculadora{
+    .calculadora{
         transform: scale(1.12);
     }
 }
