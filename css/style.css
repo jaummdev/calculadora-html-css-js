@@ -8,7 +8,7 @@ body{
     background-color: #100829;
     overflow: hidden;
 }
-main{
+.main{
     display: flex;
     align-items: center;
     justify-content: center;
