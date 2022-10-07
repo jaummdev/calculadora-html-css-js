@@ -15,6 +15,10 @@ body{
     height: 100vh;
 }
 .calculadora{
+    border: 1px solid #3600b6;
+    box-shadow: 0 0 100px #00000055;
+    border-radius: 25px;
+    padding: 30px 60px;
     margin-bottom: 50px;
 }
 h1{
@@ -51,7 +55,7 @@ a{
     flex-direction: row;
     position: relative;
 }
-#button{
+.button{
     width: 82px;
     height: 82px;
     font-size: 25px;
@@ -61,32 +65,32 @@ a{
     border: 2px solid #0c0328ce;
     background-color: #241052;
 }
-#button:hover{
+.button:hover{
     cursor: pointer;
     transform: scale(1.03);
     background-color: #321783;
     transition: .2s;
 }
-#button:active{
+.button:active{
     background-color: #110436;
     transition: .2s;
 }
-#button.plusBtn{
+.button.plusBtn{
     position: absolute;
     right: 0;
     z-index: 1;
     height: 164px;
 }
-#button.equals{
+.button.equals{
     background-color: #4c00ff;
 }
-#button.equals:hover{
+.button.equals:hover{
     background-color: #3600b6;
 }
-#button.equals:active{
+.button.equals:active{
     background-color: #270083;
 }
-#button.zero{
+.button.zero{
     position: relative;
     left: 0;
     width: 164px;
